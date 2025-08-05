@@ -51,7 +51,7 @@ envelope.addEventListener('click', function (event) {
 });
 
 document.getElementById('nextButton').addEventListener('click', function () {
-    window.location.href = '../html/birthday-cake.html';
+    window.location.href = '/birthday-for-TuyetNgaa/html/birthday-cake.html';
 });
 
 window.onload = function () {
