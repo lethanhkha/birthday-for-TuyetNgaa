@@ -19,7 +19,7 @@ function clearPassword() {
 function checkPassword() {
   if (password === correctPassword) {
     alert("Embee đoán đúng òii, chuẩn bị đón bất ngờ nhaaa!!");
-    window.location.href = "../html/sinhnhat.html";
+    window.location.href = "./html/sinhnhat.html";
   } else {
     passwordInput.classList.add("shake");
     setTimeout(() => {
