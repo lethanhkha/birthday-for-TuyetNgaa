@@ -51,7 +51,11 @@ envelope.addEventListener('click', function (event) {
 });
 
 document.getElementById('nextButton').addEventListener('click', function () {
+<<<<<<< HEAD
+    window.location.href = '../html/birthday-cake.html';
+=======
     window.location.href = './html/birthday-cake.html';
+>>>>>>> 35745a032876b6cdaf984a1c584682cff12e7fdf
 });
 
 window.onload = function () {

@@ -218,6 +218,20 @@ input#password.shake {
   z-index: 0;
 }
 
+<<<<<<< HEAD
+.keypad button.backspace {
+  background-color: #ffc0cb;
+  color: #333;
+}
+
+.keypad button.backspace:hover {
+  background-color: #ff66b2;
+  color: white;
+}
+
+
+=======
+>>>>>>> 35745a032876b6cdaf984a1c584682cff12e7fdf
 @keyframes floatHeart {
   0% {
     transform: translateY(0) rotate(0deg);
@@ -230,4 +244,45 @@ input#password.shake {
     transform: translateY(-100vh) rotate(360deg);
     opacity: 0;
   }
+<<<<<<< HEAD
 }
+
+@media screen and (max-width: 400px) {
+  .content {
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+  }
+
+  .avatar {
+    width: 150px;
+    height: 150px;
+  }
+
+  h1 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  input#password {
+    width: 90%;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .keypad {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .keypad button,
+  .submit {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+  }
+}
+=======
+}
+>>>>>>> 35745a032876b6cdaf984a1c584682cff12e7fdf

@@ -19,7 +19,11 @@ function clearPassword() {
 function checkPassword() {
   if (password === correctPassword) {
     alert("Embee đoán đúng òii, chuẩn bị đón bất ngờ nhaaa!!");
+<<<<<<< HEAD
+    window.location.href = "../html/sinhnhat.html";
+=======
     window.location.href = "./html/sinhnhat.html";
+>>>>>>> 35745a032876b6cdaf984a1c584682cff12e7fdf
   } else {
     passwordInput.classList.add("shake");
     setTimeout(() => {
@@ -42,6 +46,19 @@ function createHeartEffects() {
   }
 }
 
+<<<<<<< HEAD
+function deleteLastChar() {
+  if (password.length > 0) {
+    password = password.slice(0, -1);
+    passwordInput.value = password;
+    if (password.length === 0) {
+      passwordInput.classList.remove("active");
+    }
+  }
+}
+
+=======
+>>>>>>> 35745a032876b6cdaf984a1c584682cff12e7fdf
 window.addEventListener("load", () => {
   createHeartEffects();
 });
